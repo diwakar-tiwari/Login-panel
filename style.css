@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #cbe4f3;
+}
+
+.login{
+    width: 430px;
+    height: 750px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+    /*background-color: #ecf0f3;*/
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #cbced1;
+    /*box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+                -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));*/            
+    transition: transform 1.15s ease-in-out;
+    
+    
+}
+.login:hover{
+    
+    /*transform: rotateY(360deg);*/
+   
+}
+
+.logo{
+    background-color: tan;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f,  0px 0px 0px 5px #ecf0f3,  8px 8px 15px #a7aaaf,  -8px -8px 15px #fff;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+.sub-title{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+
+.fields{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.username, .password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #a9acb3;
+}
+
+.fields svg{
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+.login-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    background-color: #302ec5;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px rgb(75, 70, 70);
+    transition: all 0.5s;
+}
+.login-button:hover{
+    background-color: #00baf3;
+}
+.login-button:active{
+    background-color: #88ef9e;
+}
+
+
+.link{
+    padding-top: 0px;
+    text-align: center;
+    
+}
+.link a{
+    text-decoration: none;
+    color: rgb(29, 27, 27);
+    font-size: 20px;
+    
+}
